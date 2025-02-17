@@ -18,7 +18,6 @@ public class UsuariosController : ControllerBase
         _usuarioService = usuarioService;
     }
 
-    [AllowAnonymous]
     [HttpPost("/CadastrarUsuario")]
     public async Task<IActionResult> Cadastrar([FromBody] CadastrarUsuarioDto request)
     {
