@@ -58,6 +58,16 @@ export class UsuariosService {
     }
 
     cadastrarUsuarios(usuario: any): Observable<any> {
+        const token = localStorage.getItem('token');
+
+        if (!token) {
+            throw new Error('Token não encontrado');
+        }
+
+        const headers = new HttpHeaders({
+            'Authorization': `Bearer ${token}`,
+            'Content-Type': 'application/json'
+        });
 
         const body = {
             "login": usuario.login,
@@ -66,7 +76,7 @@ export class UsuariosService {
             "role": "Admin"
         };
 
-        return this.http.post(this.apiUrl + "CadastrarUsuario", body).pipe(
+        return this.http.post(this.apiUrl + "CadastrarUsuario", body, { headers: headers }).pipe(
             tap(response => {
                 console.log('Usuário cadastrado com sucesso', response);
             }),
