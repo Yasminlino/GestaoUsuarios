@@ -1,0 +1,53 @@
+<!-- Modal para edição de usuário -->
+<div class="modal" id="editModal" tabindex="-1" role="dialog" #editModal>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Editar Usuário</h5>
+        <button type="button" class="close" aria-label="Close" (click)="close()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="formularioAtualizarUsuario" (ngSubmit)="submitAtualizarUsuario()">
+          <div class="row">
+            <div class="col-12 mb-3">
+              <label for="usuarioLogin" class="form-label">Login</label>
+              <input type="text" id="usuarioLogin" formControlName="login" class="form-control" />
+            </div>
+            <div class="col-12 mb-3">
+              <label for="usuarioNome" class="form-label">Nome</label>
+              <input type="text" id="usuarioNome" formControlName="nomeUsuario" class="form-control" />
+            </div>
+            <div>
+              <span (click)="toggleSenha(); $event.stopPropagation()" class="text-primary"
+                style="cursor: pointer; font-weight: 600;">
+                Criar nova senha
+                <mat-icon style="color: #315494; vertical-align: middle;">expand_more</mat-icon>
+              </span>
+            </div>
+
+            <div *ngIf="expandirFormulario" class="col-12 mb-3">
+              <div class="col-12 mb-3">
+                <label for="senha" class="form-label">Senha</label>
+                <div class="d-flex align-items-center">
+                  <input type="password" id="senha" formControlName="senha" class="form-control"
+                    [type]="senhaVisivel ? 'text' : 'password'" />
+
+                  <button type="button" (click)="visualisarSenha()" class="btn ">
+                    <mat-icon>{{ senhaVisivel ? 'visibility_off' : 'visibility' }}</mat-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary"
+              [disabled]="formularioAtualizarUsuario.invalid || !formularioAtualizarUsuario.dirty">Salvar</button>
+            <button type="button" class="btn btn-secondary" (click)="close()">Fechar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

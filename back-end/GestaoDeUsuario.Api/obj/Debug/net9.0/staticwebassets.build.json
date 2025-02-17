@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "SVDmC82kg//lqOybdwkP25GIRs3kEudqFvb42BLYRmg=",
+  "Source": "GestaoDeUsuario.Api",
+  "BasePath": "_content/GestaoDeUsuario.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

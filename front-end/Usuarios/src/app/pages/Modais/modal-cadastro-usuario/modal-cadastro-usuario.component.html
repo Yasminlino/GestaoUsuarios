@@ -1,0 +1,53 @@
+<div class="modal" id="cadastroModal" tabindex="-1" role="dialog" #cadastroModal>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cadastrar novo Usuário</h5>
+        <button type="button" class="close" aria-label="Close" (click)="closeCadastro()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div *ngIf="errorMessage" class="alert alert-danger">
+          {{ errorMessage }}
+        </div>
+        <form [formGroup]="formularioCadastrarUsuario" (ngSubmit)="submitCadastrarUsuario()">
+          <div class="row">
+            <div class="col-12 mb-3">
+              <label for="login" class="form-label">Login</label>
+              <input type="text" id="login" formControlName="login" class="form-control" />
+            </div>
+            <div class="col-12 mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" id="nome" formControlName="nomeUsuario" class="form-control" />
+            </div>
+            <div class="col-12 mb-3">
+              <label for="senha" class="form-label">Senha</label>
+              <div class="d-flex align-items-center">
+                <input type="password" id="senha" formControlName="senha" class="form-control"
+                  [type]="senhaVisivel ? 'text' : 'password'" />
+
+                <button type="button" (click)="visualisarSenha()" class="btn ">
+                  <mat-icon>{{ senhaVisivel ? 'visibility_off' : 'visibility' }}</mat-icon>
+                </button>
+              </div>
+              A senha deve conter pelo menos:
+              <ul>
+                <li>Pelo menos 8 caracteres de comprimento.</li>
+                <li>Pelo menos uma letra maiúscula.</li>
+                <li>Pelo menos uma letra minúscula.</li>
+                <li>Pelo menos um número.</li>
+                <li>Pelo menos um caractere especial (como !@#$%^&*).</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary"
+              [disabled]="!formularioCadastrarUsuario.valid || !senhaValida">Salvar</button>
+            <button type="button" class="btn btn-secondary" (click)="closeCadastro()">Fechar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\bin\Debug\net9.0\GestaoDeUsuario.Application.deps.json
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\bin\Debug\net9.0\GestaoDeUsuario.Application.dll
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\bin\Debug\net9.0\GestaoDeUsuario.Application.pdb
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\bin\Debug\net9.0\GestaoDeUsuario.Domain.dll
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\bin\Debug\net9.0\GestaoDeUsuario.Domain.pdb
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\obj\Debug\net9.0\GestaoDeUsuario.Application.csproj.AssemblyReference.cache
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\obj\Debug\net9.0\GestaoDeUsuario.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\obj\Debug\net9.0\GestaoDeUsuario.Application.AssemblyInfoInputs.cache
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\obj\Debug\net9.0\GestaoDeUsuario.Application.AssemblyInfo.cs
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\obj\Debug\net9.0\GestaoDeUsuario.Application.csproj.CoreCompileInputs.cache
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\obj\Debug\net9.0\GestaoDeUsuario.Application.sourcelink.json
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\obj\Debug\net9.0\GestaoDe.CB05ABCC.Up2Date
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\obj\Debug\net9.0\GestaoDeUsuario.Application.dll
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\obj\Debug\net9.0\refint\GestaoDeUsuario.Application.dll
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\obj\Debug\net9.0\GestaoDeUsuario.Application.pdb
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Application\obj\Debug\net9.0\ref\GestaoDeUsuario.Application.dll

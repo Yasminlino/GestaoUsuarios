@@ -1,0 +1,60 @@
+<nav class="navbar navbar-fixed-top " style="background-color: #315494;">
+    <a class="navbar-brand d-flex  align-items-center" style="color:aliceblue;">
+        <img src="./../../../../assets/Images/Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        SISAND
+    </a>
+    <a class="navbar-brand text-center" style="color:rgb(152, 207, 255)">
+        <button (click)="logout()" class="btn btn-outline-secondary" style="color: white;">
+            logout
+        </button>
+    </a>
+</nav>
+
+<div *ngIf="errorMessage" class="alert alert-danger">
+    {{ errorMessage }}
+</div>
+<div *ngIf="successMessage" class="alert alert-success">
+    {{ successMessage }}
+</div>
+
+<div class="d-flex justify-content-end">
+    <div>
+        <button class="btn btn-outline-secondary d-inline-flex align-items-center" (click)="modalCadastroUsuario.open()" style="margin-top: 1rem; margin-right: 1rem;">
+            <mat-icon style="color: #315494;">add_circle</mat-icon>
+            <span class="ms-2" style="color: #315494;">Adicionar Usuário</span>
+        </button>
+    </div>
+</div>
+
+<app-modal-dados-usuario #modalDadosUsuario></app-modal-dados-usuario>
+<app-modal-cadastro-usuario #modalCadastroUsuario></app-modal-cadastro-usuario>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr class="align-middle">
+            <th scope="col" class="text-center">Id</th>
+            <th scope="col" class="text-center">Login</th>
+            <th scope="col" class="text-center">Nome Usuario</th>
+            <th scope="col" class="text-center">Edit</th>
+            <th scope="col" class="text-center">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let usuario of usuarios; let i = index" class="align-middle">
+            <th scope="row" class="text-center">{{ usuario.id }}</th>
+            <td class="text-center">{{ usuario.login }}</td>
+            <td class="text-center">{{ usuario.nomeUsuario }}</td>
+            <td class="text-center">
+                <button (click)="modalDadosUsuario.open(usuario)" class="btn btn-outline-secondary">
+                    <mat-icon style="color: #315494; font-size: 1.2rem;">edit</mat-icon>
+                </button>
+            </td>
+            <td class="text-center">
+                <button (click)="deleteUsuario(usuario.id)" class="btn btn-outline-secondary">
+                    <mat-icon style="color: red; font-size: 1.2rem;">delete</mat-icon>
+                </button>
+            </td>
+        </tr>
+
+    </tbody>
+</table>

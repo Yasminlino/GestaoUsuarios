@@ -1,0 +1,65 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+.custom-img-container {
+    height: 8rem;
+    border: solid 0.2px #0000005c;
+    padding: 1.2rem;
+    margin: 1rem;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    /* Linha de separação com o conteúdo do modal */
+    background-color: #f1f3f5;
+    /* Cor de fundo do header */
+}
+
+.modal-header .modal-title {
+    margin-bottom: 0;
+    /* Remover margens para o título */
+}
+
+.modal-header .close {
+    padding: 0.5rem;
+    margin: 0 -0.5rem -0.5rem auto;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.modal-header .close:hover,
+.modal-header .close:focus {
+    color: #000;
+    opacity: 0.75;
+}
+
+h5{
+    font-size: 1.25rem!important;
+}

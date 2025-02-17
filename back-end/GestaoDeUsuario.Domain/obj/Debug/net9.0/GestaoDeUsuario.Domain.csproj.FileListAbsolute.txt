@@ -1,0 +1,13 @@
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\bin\Debug\net9.0\GestaoDeUsuario.Domain.deps.json
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\bin\Debug\net9.0\GestaoDeUsuario.Domain.dll
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\bin\Debug\net9.0\GestaoDeUsuario.Domain.pdb
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\obj\Debug\net9.0\GestaoDeUsuario.Domain.csproj.AssemblyReference.cache
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\obj\Debug\net9.0\GestaoDeUsuario.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\obj\Debug\net9.0\GestaoDeUsuario.Domain.AssemblyInfoInputs.cache
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\obj\Debug\net9.0\GestaoDeUsuario.Domain.AssemblyInfo.cs
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\obj\Debug\net9.0\GestaoDeUsuario.Domain.csproj.CoreCompileInputs.cache
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\obj\Debug\net9.0\GestaoDeUsuario.Domain.sourcelink.json
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\obj\Debug\net9.0\GestaoDeUsuario.Domain.dll
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\obj\Debug\net9.0\refint\GestaoDeUsuario.Domain.dll
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\obj\Debug\net9.0\GestaoDeUsuario.Domain.pdb
+C:\Users\yasminl\Desktop\LINGUAGENS\CadastroDeUsuario\back-end\GestaoDeUsuario.Domain\obj\Debug\net9.0\ref\GestaoDeUsuario.Domain.dll
