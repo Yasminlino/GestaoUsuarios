@@ -89,7 +89,7 @@ namespace GestaoDeUsuario.Application.Services
 
                 return new UsuarioDTO(request.Login, request.Senha, request.NomeUsuario, request.Role);
             }
-            catch(InvalidOperationException ex)
+            catch (InvalidOperationException ex)
             {
                 Console.WriteLine($"Erro: {ex.Message}");
                 return null;
@@ -112,9 +112,11 @@ namespace GestaoDeUsuario.Application.Services
             {
                 var usuario = await _usuarioRepository.BuscarUsuarioPorId(id);
 
-                if (usuario == null )
+                if (usuario == null)
                     throw new Exception("Usuario não encontrado!");
- 
+                if (usuario.Id == 1)
+                    throw new Exception("Não é possivel deletar o usuario principal!");
+
                 await _usuarioRepository.DeletarUsuario(usuario);
 
                 return true;
